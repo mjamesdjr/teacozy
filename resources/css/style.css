@@ -12,6 +12,7 @@ body {
 
 a {
   color: seashell;
+  text-decoration: underline;
 }
 
 h2,
@@ -47,7 +48,6 @@ header img {
 nav {
   text-align: right;
   flex-grow: 1;
-  text-decoration: underline;
 }
 
 nav span {
