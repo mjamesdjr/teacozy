@@ -5,6 +5,7 @@ body {
   font-family: "Helvetica", sans-serif;
   color: seashell;
   background-color: black;
+  opacity: 0.9;
   font-size: 22px;
   text-align: center;
 }
@@ -46,6 +47,7 @@ header img {
 nav {
   text-align: right;
   flex-grow: 1;
+  text-decoration: underline;
 }
 
 nav span {
@@ -74,6 +76,12 @@ nav span {
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+#mission.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Store Section */
